@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+.Hero-Container {
+    height: 100vh;
+    background: url("../../images/dubaiBG.jpg") no-repeat center center/cover;
+}
+
+.Hero-Sub-Container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5rem;
+    /* Removed animation from here */
+}
+
+.Hero-heading {
+    color: white;
+    cursor: default;
+    font-family: "Times New Roman", cursive;
+}
+
+.Hero-heading-1 {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+
+.Hero-heading-6 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.Hero-btn {
+    background-color: white;
+    color: brown;
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    border: none;
+    margin-top: 3rem;
+}
+
+/* Animations */
+@keyframes slideUp {
+    from {
+        transform: translateY(15vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0vh);
+        opacity: 1;
+    }
+}
+
+.animate {
+    animation: slideUp 1.5s ease-out;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .Hero-Container {
+        height: 70vh;
+    }
+
+    .Hero-Sub-Container {
+        height: 70vh;
+        justify-content: center;
+    }
+
+    .Hero-heading-1 {
+        font-size: 5rem;
+    }
+
+    .Hero-heading-6 {
+        font-size: 2rem;
+    }
+
+    .Hero-btn {
+        width: 12rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+}
+
+/* For Mobiles  */
+@media (max-width: 480px) {
+    .Hero-Container {
+        height: 75vh;
+    }
+
+    .Hero-Sub-Container {
+        height: 75vh;
+        justify-content: center;
+    }
+
+    .Hero-heading-1 {
+        font-size: 2rem;
+    }
+
+    .Hero-heading-6 {
+        font-size: 1rem;
+    }
+
+    .Hero-btn {
+        width: 10rem;
+        height: 1.5rem;
+        font-size: 0.875rem;
+    }
+}

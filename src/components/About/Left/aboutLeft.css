@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+.AboutLeft-Container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    /* Removed animation from here */
+}
+
+.AboutLeft-heading {
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 4rem;
+    cursor: default;
+    font-family: "Sans Serifs","Times New Roman";
+}
+
+.AboutLeft-li {
+    margin: 1.0rem;
+    padding: 1.0rem;
+    text-align: justify;
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 1.25rem;
+    cursor: default;
+    font-family: "Times New Roman", cursive;
+    font-weight: bold;
+}
+
+.AboutLeft-link a {
+    text-align: center;
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-family: "Times New Roman", cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.AboutLeft-sendIcon {
+    margin: 0 0.5rem;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .AboutLeft-Container {
+        height: auto;
+        padding: 1.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboutLeft-heading {
+        font-size: 3rem;
+    }
+
+    .AboutLeft-li {
+        font-size: 1.25rem;
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .AboutLeft-link a {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .AboutLeft-Container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .AboutLeft-heading {
+        font-size: 2rem;
+    }
+
+    .AboutLeft-li {
+        font-size: 0.875rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .AboutLeft-link a {
+        font-size: 0.875rem;
+        margin-bottom: 1.0rem;
+    }
+}
+
+/* Animations */
+@keyframes slideUp {
+    from {
+        transform: translateY(15vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0vh);
+        opacity: 1;
+    }
+}
+
+.animate {
+    animation: slideUp 1.5s ease-out;
+}

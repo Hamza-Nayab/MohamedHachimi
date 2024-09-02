@@ -1,0 +1,163 @@
+.Contact-Container {
+    height: 100vh;
+    display: flex;
+    background-color: #efebe5;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.Contact-Sub-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.Contact-heading {
+    color: rgba(72, 2, 2, 0.636);
+    cursor: default;
+    font-family: "Times New Roman", cursive;
+    text-align: justify;
+}
+
+.Contact-heading-1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.Contact-heading-6 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.Contact-card {
+    background: transparent;
+    border: 1px solid rgba(72, 2, 2, 0.636);
+    margin-bottom: 1rem;
+}
+
+.Contact-card-title {
+    color: rgba(72, 2, 2, 0.636);
+    cursor: default;
+    font-family: "Times New Roman", cursive;
+    text-align: left;
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+.Contact-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+.Contact-icons .fa-icon {
+    font-size: 1.25rem;
+    color: rgba(72, 2, 2, 0.636);
+    cursor: pointer;
+    border: 1px solid rgba(72, 2, 2, 0.636);
+    border-radius: 50%;
+    padding: 0.75rem;
+    margin-right: 0.75rem;
+    transition: color 0.3s;
+}
+
+.Contact-icons .fa-icon:hover {
+    color: rgba(72, 2, 2, 0.8);
+}
+
+.Contact-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    font-size: 1rem;
+    color: rgba(72, 2, 2, 0.636);
+}
+
+.Contact-info .fa-icon {
+    margin-right: 0.5rem;
+}
+
+.Contact-card-li {
+    margin: 0.25rem;
+    padding: 0.25rem;
+    text-align: justify;
+    color: rgba(72, 2, 2, 0.636);
+    font-size: 1rem;
+    cursor: default;
+    font-family: "Times New Roman", cursive;
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+}
+
+/* For Tablets */
+@media (max-width: 768px) {
+    .Contact-heading-1 {
+        font-size: 2rem;
+    }
+
+    .Contact-heading-6 {
+        font-size: 1rem;
+    }
+
+    .Contact-card-title {
+        font-size: 1rem;
+    }
+
+    .Contact-icons .fa-icon {
+        padding: 0.5rem;
+    }
+
+    .Contact-info {
+        font-size: 0.9rem;
+    }
+
+    .Contact-card-li {
+        font-size: 0.9rem;
+    }
+}
+
+/* For Mobiles */
+@media (max-width: 480px) {
+    .Contact-Container {
+        height: auto;
+    }
+
+    .Contact-heading-1 {
+        font-size: 1.75rem;
+    }
+
+    .Contact-heading-6 {
+        font-size: 0.9rem;
+    }
+
+    .Contact-card-title {
+        font-size: 0.9rem;
+    }
+
+    .Contact-icons .fa-icon {
+        padding: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .Contact-info {
+        font-size: 0.8rem;
+    }
+
+    .Contact-info .fa-icon {
+        margin-right: 0.3rem;
+    }
+
+    .Contact-card-li {
+        font-size: 0.8rem;
+    }
+}
