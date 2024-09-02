@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contactme.css";
-import pic from "../../images/dummyImg.jpg";
+import pic from "../../images/dummyImg2.png";
 
 export default function Contactme() {
   const [formData, setFormData] = useState({
@@ -37,20 +37,31 @@ export default function Contactme() {
 
   return (
     <div className="container-fluid" style={{ backgroundColor: "#EFEBE9" }}>
-      <div className="container">
+      <div className="container box">
         <div className="row align-items-center" style={{ maxHeight: "80vh" }}>
           <div className="col-md-2"></div>
           <div className="col-md-8">
-            <form onSubmit={handleSubmit}>
-              <div className="text-center mb-4">
+            <div className="text-center mb-4">
+              <div
+                style={{
+                  width: "180px",
+                  height: "180px",
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  border: "3px solid", // WhatsApp green border
+                  display: "inline-block",
+                }}
+              >
                 <img
                   src={pic}
                   alt="Profile"
-                  className="img-fluid rounded-circle"
-                  style={{ width: "180px", height: "180px" }}
+                  className="img-fluid"
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
               </div>
+            </div>
 
+            <form onSubmit={handleSubmit}>
               <h3 className="text-center">
                 Mohamed Hachimi
                 <div></div>

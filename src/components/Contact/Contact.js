@@ -23,32 +23,32 @@ function Contact() {
                 <h5 className="Contact-card-title card-title">Get in touch</h5>
                 <span className="Contact-icons">
                   {/* Instagram Link */}
-                  <a 
-                    href="https://www.instagram.com/nateishatherealtor" 
-                    target="_blank" 
+                  <a
+                    href="https://www.instagram.com/off.plan.dxb/"
+                    target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: 'inherit', textDecoration: 'none' }}
+                    style={{ color: "inherit", textDecoration: "none" }}
                   >
                     <FontAwesomeIcon className="fa-icon" icon={faInstagram} />
                   </a>
                   {/* WhatsApp Link */}
-                  <a 
-                    href="https://wa.me/+971542460219" 
-                    target="_blank" 
+                  <a
+                    href="https://wa.me/+971542460219"
+                    target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: 'inherit', textDecoration: 'none' }}
+                    style={{ color: "inherit", textDecoration: "none" }}
                   >
                     <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} />
                   </a>
                 </span>
                 <span className="Contact-info">
-                  <a 
-                    href="https://wa.me/+971542460219" 
-                    target="_blank" 
+                  <a
+                    href="https://wa.me/+971542460219"
+                    target="_blank"
                     rel="noopener noreferrer"
-                    style={{ color: 'inherit', textDecoration: 'none' }}
+                    style={{ color: "inherit", textDecoration: "none" }}
                   >
-                    <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} /> 
+                    <FontAwesomeIcon className="fa-icon" icon={faPhoneAlt} />
                     +971-54-24-60219
                   </a>
                 </span>
@@ -81,9 +81,7 @@ function Contact() {
               <div className="Contact-card-body card-body">
                 <ul className="Contact-card-ul">
                   <li className="Contact-card-li">From $ 250.000</li>
-                  <li className="Contact-card-li">
-                    50+ residential complexes
-                  </li>
+                  <li className="Contact-card-li">50+ residential complexes</li>
                   <li className="Contact-card-li">
                     Contracts Top real estate developers in the UAE
                   </li>
