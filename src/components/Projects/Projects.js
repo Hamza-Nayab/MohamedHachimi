@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./projects.css";
-import BespokeVillasImg from "../../images/BespokeVillasImg.jpg";
-import LuxuryBrandedResidencesImg from "../../images/LuxuryBrandedResidencesImg.jpg";
+import BespokeVillasImg from "../../images/BespokeVillasImg2.webp";
+import LuxuryBrandedResidencesImg from "../../images/LuxuryBrandedResidencesImg1.jpeg";
 import PrivateBeachResidencesImg from "../../images/PrivateBeachResidencesImg.jpg";
 
 function Projects() {
