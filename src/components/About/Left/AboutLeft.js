@@ -45,7 +45,7 @@ function AboutLeft() {
           Senior Investment Advisor with International Experience
         </li>
         <li className="AboutLeft-li">
-          Expert in Off-Plan market, Secondary Real-Estate
+          Expert in Off-Plan market
         </li>
         <li className="AboutLeft-li">Contracts with all the Major Developers in UAE</li>
       </ul>

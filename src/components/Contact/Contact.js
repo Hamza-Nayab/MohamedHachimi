@@ -52,10 +52,10 @@ function Contact() {
                     +971-54-24-60219
                   </a>
                 </span>
-                <span className="Contact-info">
+                {/* <span className="Contact-info">
                   <FontAwesomeIcon className="fa-icon" icon={faEnvelope} />{" "}
                   Mohamed@monet.ae
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
