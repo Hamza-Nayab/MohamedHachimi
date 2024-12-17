@@ -33,7 +33,7 @@ function Contact() {
                   </a>
                   {/* WhatsApp Link */}
                   <a
-                    href="https://wa.me/+971542460219"
+                    href="https://wa.me/+971585986187"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "inherit", textDecoration: "none" }}
@@ -43,7 +43,7 @@ function Contact() {
                 </span>
                 <span className="Contact-info">
                   <a
-                    href="https://wa.me/+971542460219"
+                    href="https://wa.me/+971585986187"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "inherit", textDecoration: "none" }}

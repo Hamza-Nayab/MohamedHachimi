@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 function AboutLeft() {
-  const whatsappNumber = "+971542460219"; // Without the '+' sign
+  const whatsappNumber = "+971585986187"; // Without the '+' sign
   const message = "Hello, I would like to know more"; // Optional message
   const [hasAnimated, setHasAnimated] = useState(false);
   const aboutLeftRef = useRef(null);

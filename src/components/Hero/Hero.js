@@ -3,7 +3,7 @@ import "./hero.css";
 
 function Hero() {
   const handleButtonClick = () => {
-    const whatsappNumber = '+971542460219'; // Without the '+' sign
+    const whatsappNumber = '+971585986187'; // Without the '+' sign
     const message = 'Hello, I would like to know more about investment'; // Optional message
     window.location.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
   };
